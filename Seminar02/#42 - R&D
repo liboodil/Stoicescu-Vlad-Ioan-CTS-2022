@@ -1,0 +1,17 @@
+1. Se incalca Single Responsability in clasa Utils - au fost creeate readere separate pentru fiecare clasa
+2. Se incalca principiul DRY repetand citirea campurilor comune in toate readerele
+
+
+
+R01. Diferente intre clasa Abstracta si Interfata
+
+- Recomandare e sa fie folosita Interfata daca se poate deoarce clasele pot implementa mai multe interfete dar pot extinde o singura clasa
+
+
+
+H01. Schimbare clasa abstracta "ApplicantReader" cu o interfata (pastreaza aceleasi functionalitati)
+
+
+H02. Incerca cu throw exception si nu cu try-catch
+
+- In loc sa bagi try-catch in fiecare reader, folosesti throw si tratezi in main
